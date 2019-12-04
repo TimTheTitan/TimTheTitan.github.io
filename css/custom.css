@@ -1,22 +1,30 @@
 /*Added CSS by me*/
-.containerskill{
-    box-sizing: border-box;
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
-  }
+.containerskill {
+  margin: auto;
+  box-sizing: border-box;
+  width: 50%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
   
-  .skills {
-    text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
-    color: white; /* White text color */
-  }
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+#skills p {
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  font-weight: bold;
+}
   
-.csharp {width: 90%; background-color: #4CAF50;} /* Green */
-.unity {width: 80%; background-color: #2196F3;} /* Blue */
-.net {width: 65%; background-color: #f44336;} /* Red */
-.java {width: 60%; background-color: #808080;} /* Dark Grey */
-.html {width: 90%; background-color: #4CAF50;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.javascript {width: 65%; background-color: #f44336;} /* Red */
-.versioncontrol {width: 60%; background-color: #808080;} /* Dark Grey */
+.csharp {width: 65%; background-color: #2c3e50;} /* Green */
+.unity {width: 70%; background-color: #2c3e50;} /* Blue */
+.dotnet {width: 60%; background-color: #2c3e50;} /* Red */
+.java {width: 45%; background-color: #2c3e50;} /* Dark Grey */
+.html {width: 60%; background-color: #2c3e50;} /* Green */
+.css {width: 50%; background-color: #2c3e50;} /* Blue */
+.javascript {width: 35%; background-color: #2c3e50;} /* Red */
+.versioncontrol {width: 35%; background-color: #2c3e50;} /* Dark Grey */
