@@ -10,6 +10,7 @@
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
+  padding-right: 10px;
   color: white; /* White text color */
 }
 
@@ -19,12 +20,20 @@
   padding-top: 10px;
   font-weight: bold;
 }
-  
-.csharp {width: 65%; background-color: #2c3e50;} /* Green */
-.unity {width: 70%; background-color: #2c3e50;} /* Blue */
-.dotnet {width: 60%; background-color: #2c3e50;} /* Red */
-.java {width: 40%; background-color: #2c3e50;} /* Dark Grey */
-.html {width: 60%; background-color: #2c3e50;} /* Green */
-.css {width: 50%; background-color: #2c3e50;} /* Blue */
-.javascript {width: 35%; background-color: #2c3e50;} /* Red */
-.versioncontrol {width: 35%; background-color: #2c3e50;} /* Dark Grey */
+
+.linkabout:link {
+  color: #2c3e50;
+}
+
+.linkabout:visited {
+  color: #2c3e50;
+}
+
+.csharp {width: 65%; background-color: #2c3e50;}
+.unity {width: 70%; background-color: #2c3e50;}
+.dotnet {width: 60%; background-color: #2c3e50;}
+.java {width: 40%; background-color: #2c3e50;}
+.html {width: 60%; background-color: #2c3e50;}
+.css {width: 50%; background-color: #2c3e50;}
+.javascript {width: 35%; background-color: #2c3e50;}
+.versioncontrol {width: 35%; background-color: #2c3e50;}
