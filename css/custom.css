@@ -1,4 +1,8 @@
 /*Added CSS by me*/
+.masthead-avatar{
+    border-radius: 50%;
+}
+
 .containerskill {
   margin: auto;
   box-sizing: border-box;
